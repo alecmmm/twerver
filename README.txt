@@ -2,7 +2,7 @@ Twitter Server built in C: final assignment for Software Tools and Systems Progr
 
 Open a new terminal and use the following command: "Make PORT=x", where x is the number of an open port. E.g. 53457. This will compile the server's code to run on the specified port. If running more than once, you may have to change the port as it may not be free after running. To start server run command: "./twerver"
 
-Open a second terminal and and use the following command: "nc -C localhost x", where is the is number of the open port. You will be promted to enter a username. Multiple users can connect simultaneously by repeating this with new terminals.
+Open a second terminal and and use the following command: "nc -C localhost x", where x is the is number of the open port. You will be promted to enter a username. Multiple users can connect simultaneously by repeating this with new terminals.
 
 The program can also communicate over different machines. See https://linux.die.net/man/1/nc for more details on connecting through different machines with netcat
 
